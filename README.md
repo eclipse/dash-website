@@ -1,16 +1,16 @@
-# hugo-eclipsefdn-website-starterkit
+# dash-website
 
 The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation.
 
-[![Build Status](https://travis-ci.org/EclipseFdn/hugo-eclipsefdn-website-starterkit.svg?branch=main)](https://travis-ci.org/eclipsefdn/hugo-eclipsefdn-website-starterkit)
+[![Build Status](https://travis-ci.org/eclipse/dash-website.svg?branch=main)](https://travis-ci.org/eclipse/dash-website)
 
 ## Getting started
 
 Install dependencies, build assets and start a web server:
 
 ```bash
-git clone --recurse-submodules https://github.com/EclipseFdn/hugo-eclipsefdn-website-starterkit.git
-cd hugo-eclipsefdn-website-starterkit
+git clone --recurse-submodules https://github.com/eclipse/dash-website.git
+cd dash-website
 hugo server
 ```
 
@@ -32,8 +32,8 @@ If you don't have a Jenkins instance already, [ask for one](https://wiki.eclipse
 
 ## Contributing
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the [eclipsefdn/hugo-eclipsefdn-website-starterkit](https://github.com/eclipsefdn/hugo-eclipsefdn-website-starterkit) repository
-2. Clone repository: `git clone --recurse-submodules https://github.com/[your_github_username]/hugo-eclipsefdn-website-starterkit.git`
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the [eclipse/dash-website](https://github.com/eclipse/dash-website) repository
+2. Clone repository: `git clone --recurse-submodules https://github.com/[your_github_username]/dash-website.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -m 'Add some feature' -s`
 5. Push feature branch: `git push origin my-new-feature`
@@ -59,7 +59,7 @@ Hugo theme of the Eclipse Foundation look and feel.
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/eclipsefdn/hugo-eclipsefdn-website-starterkit/issues/new).
+Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/eclipse/dash-website/issues/new).
 
 ## Author
 
@@ -75,4 +75,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [hugo-eclipsefdn-website-starterkit authors](https://github.com/eclipsefdn/hugo-eclipsefdn-website-starterkit/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/eclipsefdn/hugo-eclipsefdn-website-starterkit/blob/src/LICENSE).
+Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [dash-website authors](https://github.com/eclipse/dash-website/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/eclipse/dash-website/blob/src/LICENSE).

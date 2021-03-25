@@ -1,8 +1,8 @@
-# Notices for hugo-eclipsefdn-website-starterkit
+# Notices for dash-website
 
 This content is produced and maintained by the Eclipse Foundation.
 
-* Project home: https://github.com/EclipseFdn/hugo-eclipsefdn-website-starterkit
+* Project home: https://github.com/eclipse/dash-website
 
 ## Trademarks
 
@@ -28,7 +28,7 @@ SPDX-License-Identifier: EPL-2.0
 
 The project maintains the following source code repositories:
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-starterkit
+* https://github.com/eclipse/dash-website
 
 ## Third-party Content
 

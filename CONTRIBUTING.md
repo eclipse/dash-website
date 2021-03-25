@@ -1,21 +1,21 @@
-# Contributing to hugo-eclipsefdn-website-starterkit
+# Contributing to dash-website
 
 
 Thanks for your interest in this project.
 
 ## Project description
 
-hugo-eclipsefdn-website-starterkit
+dash-website
  is a project to regroup assets for the Eclipse Foundation look and feel. 
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-starterkit
+* https://github.com/eclipse/dash-website
 
 
 ## Developer resources
 
 The project maintains the following source code repositories
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-starterkit
+* https://github.com/eclipse/dash-website
 
 
 ## Eclipse Contributor Agreement

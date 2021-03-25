@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<plan xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml">
+  <release projectid="technology.dash" version="1.0"/>
+    <introduction>
+    <html:p>The Dash project currently does not produce an Eclipse plug-in and thus does not have
+    a traditional release cycle. Dash currently produces tools for committers that are deployed
+    on various eclipse.org servers. These deployments are done incrementally, often daily, whenever
+    new functionality is needed. We roll these deployments up into monthly milestones for
+    reporting.</html:p>
+    <html:p>The Dash project is divided into two parts: Dash and Dash-prime. Dash is the open source
+    project and Dash-prime is the closed, internal-to-the-Foundation, code base. Even though
+    the Dash-prime code base is closed, the planning, discussions, and bug activities are open.
+    Thus this project plan covers both Dash and Dash-prime.
+    </html:p>
+  </introduction>
+  <release_deliverables>
+    <html:p>The Dash project delivers server software running on eclipse.org servers (Commits Explorer and Ganymatic).
+    The Dash-prime team is also responsible for an internal Foundation application deployed on eclipse.org servers (Portal).</html:p>
+  </release_deliverables>
+  <release_milestones>
+    <milestone date="4/30/2008" milestone="M1"><html:p>April milestone</html:p></milestone>
+    <milestone date="5/31/2008" milestone="M2"><html:p>May milestone</html:p></milestone>
+    <milestone date="6/30/2008" milestone="M3"><html:p>June milestone</html:p></milestone>
+    <milestone date="7/31/2008" milestone="M4"><html:p>July milestone</html:p></milestone>
+    <postamble/>
+  </release_milestones>
+  <target_environments><html:p>Ganymatic runs on the build.eclipse.org server and requires Java 5.0 and Ant 1.7.</html:p>
+    <html:p>Commits Explorer runs on the dash.eclipse.org server and requires a current version
+    of Apache, PHP, Perl, and MySQL.</html:p>
+    <html:p>Foundation Portal runs on the portal.eclipse.org server and requires a current version
+    of Apache, PHP, and MySQL.</html:p>
+    <internationalization>
+       <html:p>
+        None of the Dash deliverables are internationalized.
+        </html:p>
+    </internationalization>
+  </target_environments>
+  <compatibility_with_previous_releases/>
+  
+  <themes_and_priorities>
+    <preamble>
+     <html:p>
+The Dash project is not a traditional Eclipse project in that it is in
+support of the Eclipse committers and member rather than in support of adopters and users.
+Thus the Dash project has a somewhat different set of Themes and Priorities than those
+defined by the Requirements Council.
+     </html:p>
+    </preamble>
+    <theme name="Clean the Graffiti">
+      <description>
+        <html:p>
+Cleaning the Graffiti is reducing the backlog of small bugs against 
+the Dash and Dash-prime tools. The goal is to have committers feel happy about the portal 
+(it's doing what they want) and to believe that the portal team is 
+responsive to their requests (it's going in the right direction). 
+We want the Dash tools to be a benefit of Eclipse committership and not a burden.
+        </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5BClean+the+Graffiti%5D&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;component=Website&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+    </theme>
+    <theme name="Manage Committers">
+      <description>
+         <html:p>
+Managing Committers is our theme for provide teams and team leaders tools 
+to manage their committer populations: adding new committers, removing 
+inactive committers, managing file permissions, etc.
+         </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5BManage+Committers%5D&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;component=Website&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+    </theme>
+    <theme name="Make The Portal More Of A Home">
+      <description>
+        <html:p>
+The portal is very useful as it is. But it could be much more. It is currently 
+mostly a workflow facilitator helping project members walk the development process 
+etc. But given that most of the content is driven by a database or two, 
+there are many more possibilities that would make it more attractive 
+as a landing page for committers.
+        </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5BMake+The+Portal+More+Of+A+Home%5D&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;component=Website&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+    </theme>
+    <theme name="Improve the Experience">
+      <description>
+       <html:p>
+As the portal handles more of the workflow for our committers
+and members, it could become cluttered and slow. We plan to improve
+both the user interface and the infrastructure to avoid that.
+       </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc=%5BImprove+the+Experience%5D&amp;short_desc_type=allwordssubstr&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;component=Website&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+    </theme>
+    <theme name="Submission System">
+      <description>
+        <html:p>
+We're moving the formerly bugzilla-based EclipseCon submission system
+to a portal-based system. This change will enable the submission system
+to integrate with more of our databases, thus improving the user experience
+for speakers and attendees, as well as reducing the server load for generating web pages.
+        </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc=%5BSubmission+System%5D&amp;short_desc_type=allwordssubstr&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;component=Website&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+    </theme>
+    <theme name="Other">
+      <description>
+        <html:p>
+Features and bugs that we plan to address in the next three months that are not yet categorized into a theme.
+        </html:p>
+      </description>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;target_milestone=July+08&amp;target_milestone=June+08&amp;target_milestone=May+08&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
+    </theme>
+  </themes_and_priorities>
+  <appendix/>
+</plan>

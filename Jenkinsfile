@@ -32,8 +32,8 @@ spec:
   }
  
   environment {
-    PROJECT_NAME = "<project_name>" // must be all lowercase.
-    PROJECT_BOT_NAME = "<Project_name> Bot" // Capitalize the name
+    PROJECT_NAME = "dash" // must be all lowercase.
+    PROJECT_BOT_NAME = "DASH Bot" // Capitalize the name
   }
  
   triggers { pollSCM('H/10 * * * *') 

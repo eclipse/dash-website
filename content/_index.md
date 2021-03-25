@@ -1,5 +1,5 @@
 ---
-title: "hugo-eclipsefdn-website-starterkit"
+title: "The Eclipse Dash Project"
 date: 2020-03-01T16:09:45-04:00
 #headline: "The Community for Open Innovation and Collaboration"
 #tagline: "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
@@ -12,13 +12,30 @@ hide_page_title: true
 #container: "container-fluid"
 ---
 
-# hugo-eclipsefdn-website-starterkit
+## What is the Eclipse Dash Project?
 
-The hugo-eclipsefdn-website-starterkit project is available under the EPL-v2. 
+{{< incubation >}}
 
-Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development.
+Project Dash is a place where the community itself can collaborate on tools for community awareness and collaboration in support of our ultimate objective of committer quality and cooperation. This is very much a research project as we are not entirely sure what these tools will be.
 
-{{< starterkit/example >}}
+## Components
 
-For more information, see our documentation for the [hugo-solstice-theme](https://eclipsefdn-hugo-solstice-theme.netlify.app/).
+### Eclipse Project Handbook
+
+This document provides you with the information that you need to create a new Eclipse open source project or become a committer on an existing one.
+
+*   View [the handbook](/projects/handbook);
+*   Clone [the repository](https://git.eclipse.org/r/#/admin/projects/dash/org.eclipse.dash.handbook) (via Gerrit); or
+*   Report [an issue](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Dash&component=Handbook).
+
+### Gently Dependency Scanner
+
+**Coming soon!**
+
+This is a collection of tools for rooting through content to determine dependencies, legal documentation conformance, etc.
+
+## The Rest of The Story
+
+See our [wiki pages](http://wiki.eclipse.org/Dash_Project) for discussions, directions, plans, accomplishments, and all the rest.
+
 

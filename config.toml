@@ -15,9 +15,10 @@ pluralizeListTitles = false
   news_count = 3
   gcse = "011805775785170369411:p3ec0igo0qq"
   header_wrapper_class = "header-wrapper header-default-bg-img featured-jumbotron-bottom-shape"
-  call_for_action_text = "Download"
-  call_for_action_url = "//eclipse.org/download/"
-  call_for_action_icon = "fa-download"
+  call_for_action_text = "Donate"
+  call_for_action_url = "//eclipse.org/donate/"
+  call_for_action_icon = "fa-star"
+  call_for_action_classes = "btn btn-huge btn-info"
 # sidebar_layout = "default"
 # featured_content_publish_target = "eclipse_org"
 #  js = ""
@@ -70,28 +71,21 @@ pluralizeListTitles = false
     weight = 3
     
 [[menu.sidebar]]
-  name = "Documentation"
+  name = "Eclipse Dash"
   url = "/home"
   weight = 1
   identifier = "home"
   
 [[menu.sidebar]]
-  parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://eclipsefdn-hugo-solstice-theme.netlify.app/"
+  parent = "home"
+  name = "About This Project"
+  url = "https://projects.eclipse.org/projects/technology.dash"
   weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-  
-[[menu.sidebar]]
-  parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
-  weight = 2
   pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 [[menu.sidebar]]
   parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
+  name = "Wiki"
+  url = "https://wiki.eclipse.org/Dash_Project"
   weight = 3
   pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
