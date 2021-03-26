@@ -52,7 +52,7 @@ spec:
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
                     git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
-                    if [[ "${BRANCH_NAME}" == "main" ]]; then
+                    if [ "${BRANCH_NAME}" = "main" ]; then
                       git checkout master
                     else
                       git checkout ${BRANCH_NAME}
@@ -105,7 +105,7 @@ spec:
                   git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  if [[ "${BRANCH_NAME}" == "main" ]]; then
+                  if [ "${BRANCH_NAME}" = "main" ]; then
                     git push origin HEAD:master
                   else
                     git push origin HEAD:${BRANCH_NAME}
