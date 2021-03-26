@@ -40,7 +40,7 @@ Once your Hugo sources are in the proper repository, update the file named `Jenk
 
 If you don't have a Jenkins instance already, [ask for one](https://wiki.eclipse.org/CBI#Requesting_a_JIPP_instance). If you need assistance with the process, [open a ticket](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&component=CI-Jenkins).
 
-Tge `Jenkinsfile` example assumes that your project will use 'main' as the default branch for your source code. Projects will need to make changes to the file to use a different branch name.
+Tge `Jenkinsfile` example assumes that your project will use `main` as the default branch for your source code. Projects will need to make changes to the file to use a different branch name.
 
 ## Contributing
 
