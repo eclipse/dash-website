@@ -87,4 +87,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [dash-website authors](https://github.com/eclipse/dash-website/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/eclipse/dash-website/blob/src/LICENSE).
+Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [dash-website authors](https://github.com/eclipse/dash-website/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/eclipse/dash-website/blob/main/LICENSE).
