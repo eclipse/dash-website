@@ -18,7 +18,7 @@ hugo server
 
 ### Update hugo-solstice-theme
 
-The [hugo-solstice-theme](https://github.com/EclipseFdn/hugo-solstice-theme) was added to this project as a git submodules.
+The [hugo-solstice-theme](https://github.com/EclipseFdn/hugo-solstice-theme) was added to this project as a git submodule.
 
 ```bash
 git submodule update --remote
