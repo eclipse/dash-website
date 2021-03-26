@@ -1,4 +1,4 @@
-baseurl = "https://www.eclipse.org/"
+baseurl = "https://www.eclipse.org/dash"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
 theme = "hugo-solstice-theme"
