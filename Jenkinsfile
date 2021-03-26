@@ -33,7 +33,7 @@ spec:
  
   environment {
     PROJECT_NAME = "dash" // must be all lowercase.
-    PROJECT_BOT_NAME = "DASH Bot" // Capitalize the name
+    PROJECT_BOT_NAME = "Dash Bot" // Capitalize the name
   }
  
   triggers { pollSCM('H/10 * * * *') 
@@ -51,7 +51,7 @@ spec:
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
-                    git clone --recurse-submodules ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
+                    git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
                     git checkout ${BRANCH_NAME}
                 '''
             }
@@ -101,7 +101,11 @@ spec:
                   git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  git push origin HEAD:${BRANCH_NAME}
+                  if [[ "${BRANCH_NAME}" == "main" ]]; then
+                    git push origin HEAD:master
+                  else
+                    git push origin HEAD:${BRANCH_NAME}
+                  fi
                 else
                   echo "No changes have been detected since last build, nothing to publish"
                 fi
