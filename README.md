@@ -32,9 +32,9 @@ The preferred static website generator for Eclipse project websites is [Hugo](ht
 
 You should first put your Hugo sources in a dedicated Git repository, either at GitHub if your source code is already hosted at GitHub or at git.eclipse.org. If you don't have such a repository already, feel free to [open a request](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&component=Git), the Eclipse IT team will create one for you.
 
-Note that each and every Eclipse project automatically gets a Git repository with `git.eclipse.org/www.eclipse.org/<project_name>` (see this repository index for complete list). This is not where you want to push your Hugo sources. This repository contains the webpages that are automatically and regularly pulled and published on the www.eclipse.org HTTP server. All the content from the master branch will eventually be available at the URL https://www.eclipse.org/<project_name/>.
+Note that each and every Eclipse project automatically gets a Git repository with `git.eclipse.org/www.eclipse.org/<project_name>` (see this [repository index](https://git.eclipse.org/r/plugins/gitiles/www.eclipse.org/) for complete list). This is not where you want to push your Hugo sources. This repository contains the webpages that are automatically and regularly pulled and published on the www.eclipse.org HTTP server. All the content from the master branch will eventually be available at the URL https://www.eclipse.org/<project_name>.
 
-We recommend  that start by forking our (https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate)[hugo-eclipsefdn-website-boilerplate] project.
+We recommend that our projects start with forking our [hugo-eclipsefdn-website-boilerplate](https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate) project.
 
 Once your Hugo sources are in the proper repository, update the file named `Jenkinsfile` at the root of the repository with the proper value for `PROJECT_NAME` and `PROJECT_BOT_NAME` environment variable. We also expect projects to update the README.md, config.toml and all the files in the content folder.
 
